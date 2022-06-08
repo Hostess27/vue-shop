@@ -1,0 +1,10 @@
+@import 'app-colors.scss';
+
+:root {
+  --primari-border-color: #{$grey};
+  --dark-gray-alfa: #{$dark-gray-alfa};
+  --white: #{$white};
+  --primary-color: #{$black};
+  --atencion-color: #{$red};
+  --success-color: #{$green};
+}
