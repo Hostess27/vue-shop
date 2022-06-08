@@ -5,7 +5,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "serve-fake-api": "json-server --watch ./api/database.json",
-    "build": "vue-cli-service build",
+    "build": "json-server --watch ./api/database.json vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint"
   },
